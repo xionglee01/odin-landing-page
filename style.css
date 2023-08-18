@@ -30,7 +30,7 @@ nav {
     display: flex;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
 }
 
@@ -58,7 +58,7 @@ a {
 /* First section content */
 .top-content {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .top-content div
@@ -115,6 +115,7 @@ a {
 .mid-content
 {
     display: flex;
+    justify-content: center;
     gap: 50px;
 }
 
@@ -129,6 +130,121 @@ a {
 {
     border: 2px solid #3882F6;
     border-radius: 10px;
+    width: 200px;
+    height: 200px;
 }
 
+.mid-content div p
+{
+    width: 200px;
+    margin: 5px auto;
+}
+
+
+#mid .content-container
+{
+    margin-bottom: 80px;
+}
 /* Second section content */
+
+/* Third section content */
+
+
+#mid-quote
+{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+#mid-quote .content-container
+{
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+.quote
+{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name
+{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+
+
+/* Third section content */
+
+
+/* Fourth section content */
+
+
+.action-container
+{
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    margin: 80px 0px 80px 0px;
+    padding: 30px 50px 30px 50px;
+    width: 65%;
+    justify-content: space-around;
+}
+
+#action
+{
+    display: flex;
+    justify-content: center;
+}
+
+.left h5
+{
+    font-size: 18px;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.left p
+{
+    font-size: 16px;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.action-container button
+{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+/* Fourth section content */
+
+
+/* Footer */
+
+footer
+{
+    height: 80px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p
+{
+    color: #f9faf8;
+}
+
+
+
+/* Footer */
