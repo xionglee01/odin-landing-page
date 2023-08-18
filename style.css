@@ -7,6 +7,7 @@ body {
 img {
     max-width: 100%;
     max-height: 100%;
+    overflow: auto;
     object-fit: cover;
 }
 
@@ -114,7 +115,20 @@ a {
 .mid-content
 {
     display: flex;
+    gap: 50px;
 }
 
+.info
+{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.mid-content div img
+{
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
 
 /* Second section content */
